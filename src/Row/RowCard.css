@@ -1,0 +1,17 @@
+div.scrollmenu {
+  background-color: #fff;
+  overflow: auto;
+  white-space: nowrap;
+}
+div.scrollmenu::-webkit-scrollbar {
+  display: none;
+}
+.cardimg {
+  max-height: 300px;
+  max-width: 300px;
+  margin: 10px;
+}
+.small-poster {
+  max-height: 150px;
+  margin-right: 10px;
+}
