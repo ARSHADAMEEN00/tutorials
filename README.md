@@ -19,3 +19,7 @@ run npm install
 run npm run start
 ```
 # tutorials
+
+#this respo is unnecessary files, that not important 
+
+some project backups and other data only
