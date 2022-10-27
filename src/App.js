@@ -1,11 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import UseQuery from "./useQuery";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <UseQuery queryKey={"data"} />
+        {/* <UseQuery queryKey={"data2"} /> */}
+
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
